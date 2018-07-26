@@ -20,3 +20,7 @@ Part of speech tagging
 
 Lemmatizing
 
+Resources:
+
+http://nltk.org/
+https://www.nltk.org/book/
