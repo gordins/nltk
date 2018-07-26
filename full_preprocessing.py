@@ -36,7 +36,7 @@ preprocessed_text = []
 for sentence in tagged_tokened_sentences:
     preprocessed_sentence = []
     for word in sentence:
-        if(word not in stop_words):
+        if(word[0] not in stop_words):
             preprocessed_sentence.append(lemmatizer.lemmatize(
                 word[0], pos=pos_to_wordnet(word[1])))
     preprocessed_text.append(preprocessed_sentence)
